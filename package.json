@@ -1,0 +1,19 @@
+{
+  "name": "code_library",
+  "version": "1.0.1",
+  "description": "personal javascript library that I can expand and add to any project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eandy5000/code_library.git"
+  },
+  "author": "E. Andre Eccleston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eandy5000/code_library/issues"
+  },
+  "homepage": "https://github.com/eandy5000/code_library#readme"
+}

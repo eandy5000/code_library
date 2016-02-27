@@ -9,7 +9,9 @@ var public_api = {
     fizzBuzz : fizzBuzz,
     fizzBuzzPlus:fizzBuzzPlus,
     loopingTriangle : loopingTriangle,
-    loopingTrianglePlus: loopingTrianglePlus
+    loopingTrianglePlus: loopingTrianglePlus,
+    reverseTriangle : reverseTriangle,
+    reverseTrianglePlus : reverseTrianglePlus
 
 }
 
@@ -105,7 +107,7 @@ var public_api = {
                 blankArr.pop();
            }
        }
-/* lets the user change the triangle height and character with high and string parameters*/       
+/* lets the user change the triangle height and character with high and string parameters*/
         function reverseTrianglePlus(high, string){
            var height = (high || 6);
            var hash =(string || "#");
@@ -132,5 +134,3 @@ var public_api = {
 return public_api;
 
 })();
-
-//_.loopingTrianglePlus(17, "Danyell");
